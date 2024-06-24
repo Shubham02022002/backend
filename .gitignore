@@ -1,2 +1,5 @@
-/node_modules
-.env
+/first/node_modules
+/second/.env
+/second/backend/node_modules
+/second/backend/.env
+/second/frontend/node_modules

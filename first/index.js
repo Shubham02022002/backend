@@ -11,6 +11,12 @@ app.get("/youtube", (req, res) => {
   res.send(`<h1>Youtube</h1>`);
 });
 
+app.get("/get", (req, res) => {
+  //   res.download("./files/card.pdf");
+  //   res.location("http://example.com");
+  res.redirect("http://example.com");
+});
+
 app.listen(process.env.PORT, () => {
   console.log(`Server is up at ${process.env.PORT}`);
 });
